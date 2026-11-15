@@ -1,0 +1,45 @@
+<?php
+
+return [
+    'accepted' => 'El campo :attribute debe ser aceptado.',
+    'after' => 'El campo :attribute debe ser una fecha posterior a :date.',
+    'before' => 'El campo :attribute debe ser una fecha anterior a :date.',
+    'between' => [
+        'numeric' => 'El campo :attribute debe estar entre :min y :max.',
+        'string' => 'El campo :attribute debe tener entre :min y :max caracteres.',
+    ],
+    'boolean' => 'El campo :attribute debe ser verdadero o falso.',
+    'confirmed' => 'La confirmación de :attribute no coincide.',
+    'current_password' => 'La contraseña es incorrecta.',
+    'date' => 'El campo :attribute debe ser una fecha válida.',
+    'date_format' => 'El campo :attribute debe coincidir con el formato :format.',
+    'decimal' => 'El campo :attribute debe tener :decimal decimales.',
+    'email' => 'El campo :attribute debe ser una dirección de correo válida.',
+    'exists' => 'El valor seleccionado para :attribute no es válido.',
+    'in' => 'El valor seleccionado para :attribute no es válido.',
+    'integer' => 'El campo :attribute debe ser un número entero.',
+    'max' => [
+        'numeric' => 'El campo :attribute no debe ser mayor que :max.',
+        'string' => 'El campo :attribute no debe tener más de :max caracteres.',
+    ],
+    'min' => [
+        'numeric' => 'El campo :attribute debe ser al menos :min.',
+        'string' => 'El campo :attribute debe tener al menos :min caracteres.',
+    ],
+    'numeric' => 'El campo :attribute debe ser un número.',
+    'required' => 'El campo :attribute es obligatorio.',
+    'string' => 'El campo :attribute debe ser texto.',
+    'timezone' => 'El campo :attribute debe ser una zona horaria válida.',
+    'unique' => 'El valor de :attribute ya está en uso.',
+    'url' => 'El campo :attribute debe ser una URL válida.',
+    'attributes' => [
+        'name' => 'nombre',
+        'email' => 'correo electrónico',
+        'password' => 'contraseña',
+        'phone_number_id' => 'ID del número de teléfono',
+        'customer_name' => 'nombre del cliente',
+        'customer_phone' => 'teléfono del cliente',
+        'starts_at' => 'hora de inicio',
+        'ends_at' => 'hora de finalización',
+    ],
+];
